@@ -101,6 +101,11 @@ About Me
     flex-direction: column;
 }
 
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+}
+
 .about-me__info--container {
     display: flex;
     justify-content: center;
@@ -134,5 +139,18 @@ About Me
 }
 
 .about-me__link {
-    font-size: 40px;
+    font-size: 35px;
+    text-decoration: none;
+    padding: 0 8px;
+    color: #A80000;
+}
+
+.about-me__image--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    transform: scale(0.5) translateY(-350px);
+}
+.about-me__image {
+    width: 100%;
 }
